@@ -1,0 +1,105 @@
+* {
+  margin: 33;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: vendana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+p,
+ol,
+ul,
+td {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 18px;
+}
+
+#notice {
+  color: green;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #0000ee;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+}
+
+input,
+textarea {
+  border: none;
+  background: transparent;
+}
+
+input[type="text"],
+textarea {
+  border: 1px solid #767676;
+  background-color: white;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+input[type="submit"] {
+  background-color: #f0f0f0;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  padding: 3px 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input [type="submit"]:hover {
+  background-color: #e0e0e0;
+}
+
+th,
+td {
+  padding: 5px 10px;
+}
+
+#error_explanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px 7px 0 7px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 14px;
+  margin: -7px -7px 0 -7px;
+  background-color: #cc0000;
+  color: #fff;
+}
+
+#error_explanation ul {
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
